@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Conway.dir/src/main.cpp.o CMakeFiles/Conway.dir/src/GameManager.cpp.o -o Conway 

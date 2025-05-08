@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/bakerlm/CPPProjects/Conway/build",
+  "command": "/usr/bin/g++  -I/home/bakerlm/CPPProjects/Conway/include -g -o CMakeFiles/Conway.dir/src/main.cpp.o -c /home/bakerlm/CPPProjects/Conway/src/main.cpp",
+  "file": "/home/bakerlm/CPPProjects/Conway/src/main.cpp"
+},
+{
+  "directory": "/home/bakerlm/CPPProjects/Conway/build",
+  "command": "/usr/bin/g++  -I/home/bakerlm/CPPProjects/Conway/include -g -o CMakeFiles/Conway.dir/src/GameManager.cpp.o -c /home/bakerlm/CPPProjects/Conway/src/GameManager.cpp",
+  "file": "/home/bakerlm/CPPProjects/Conway/src/GameManager.cpp"
+}
+]
