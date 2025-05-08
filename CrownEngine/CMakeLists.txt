@@ -8,11 +8,17 @@ find_package(OpenGL REQUIRED)
 # Tell CMake that "include/" is an include search path
 include_directories(include)
 
+# For external libs
+include_directories(external)
+
 # Tell CMake where the source files are
 add_executable(CrownEngine
     src/main.cpp
 
-    src/glad.c
+    src/shaders.cpp
+    src/utils.cpp
+
+    external/glad.c
 )
 
 # Add glfw as a dependency

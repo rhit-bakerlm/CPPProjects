@@ -5,8 +5,8 @@
 #include "glad.h"
 #include <GLFW/glfw3.h>
 
-#include <shaders.h>
-#include <utils.h>
+#include "shaders.h"
+#include "utils.h"
 
 //Compiles a vertex shader and returns its GLFW binding
 unsigned int compileVertexShader(std::string name) {

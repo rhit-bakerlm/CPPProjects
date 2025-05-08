@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CrownEngine.dir/src/glad.c.o"
-  "CMakeFiles/CrownEngine.dir/src/glad.c.o.d"
+  "CMakeFiles/CrownEngine.dir/external/glad.c.o"
+  "CMakeFiles/CrownEngine.dir/external/glad.c.o.d"
   "CMakeFiles/CrownEngine.dir/src/main.cpp.o"
   "CMakeFiles/CrownEngine.dir/src/main.cpp.o.d"
+  "CMakeFiles/CrownEngine.dir/src/shaders.cpp.o"
+  "CMakeFiles/CrownEngine.dir/src/shaders.cpp.o.d"
+  "CMakeFiles/CrownEngine.dir/src/utils.cpp.o"
+  "CMakeFiles/CrownEngine.dir/src/utils.cpp.o.d"
   "CrownEngine"
   "CrownEngine.pdb"
 )

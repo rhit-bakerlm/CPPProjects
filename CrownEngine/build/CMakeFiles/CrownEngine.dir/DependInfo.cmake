@@ -8,8 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bakerlm/CPPProjects/CrownEngine/src/glad.c" "CMakeFiles/CrownEngine.dir/src/glad.c.o" "gcc" "CMakeFiles/CrownEngine.dir/src/glad.c.o.d"
+  "/home/bakerlm/CPPProjects/CrownEngine/external/glad.c" "CMakeFiles/CrownEngine.dir/external/glad.c.o" "gcc" "CMakeFiles/CrownEngine.dir/external/glad.c.o.d"
   "/home/bakerlm/CPPProjects/CrownEngine/src/main.cpp" "CMakeFiles/CrownEngine.dir/src/main.cpp.o" "gcc" "CMakeFiles/CrownEngine.dir/src/main.cpp.o.d"
+  "/home/bakerlm/CPPProjects/CrownEngine/src/shaders.cpp" "CMakeFiles/CrownEngine.dir/src/shaders.cpp.o" "gcc" "CMakeFiles/CrownEngine.dir/src/shaders.cpp.o.d"
+  "/home/bakerlm/CPPProjects/CrownEngine/src/utils.cpp" "CMakeFiles/CrownEngine.dir/src/utils.cpp.o" "gcc" "CMakeFiles/CrownEngine.dir/src/utils.cpp.o.d"
   )
 
 # Targets to which this target links.

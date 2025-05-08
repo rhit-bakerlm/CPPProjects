@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/bakerlm/CPPProjects/CrownEngine/include
+C_INCLUDES = -I/home/bakerlm/CPPProjects/CrownEngine/include -I/home/bakerlm/CPPProjects/CrownEngine/external
 
 C_FLAGS = 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/bakerlm/CPPProjects/CrownEngine/include
+CXX_INCLUDES = -I/home/bakerlm/CPPProjects/CrownEngine/include -I/home/bakerlm/CPPProjects/CrownEngine/external
 
 CXX_FLAGS = -std=gnu++23
 

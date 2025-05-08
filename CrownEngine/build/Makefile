@@ -129,29 +129,29 @@ CrownEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrownEngine.dir/build.make CMakeFiles/CrownEngine.dir/build
 .PHONY : CrownEngine/fast
 
-src/glad.o: src/glad.c.o
-.PHONY : src/glad.o
+external/glad.o: external/glad.c.o
+.PHONY : external/glad.o
 
 # target to build an object file
-src/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrownEngine.dir/build.make CMakeFiles/CrownEngine.dir/src/glad.c.o
-.PHONY : src/glad.c.o
+external/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrownEngine.dir/build.make CMakeFiles/CrownEngine.dir/external/glad.c.o
+.PHONY : external/glad.c.o
 
-src/glad.i: src/glad.c.i
-.PHONY : src/glad.i
+external/glad.i: external/glad.c.i
+.PHONY : external/glad.i
 
 # target to preprocess a source file
-src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrownEngine.dir/build.make CMakeFiles/CrownEngine.dir/src/glad.c.i
-.PHONY : src/glad.c.i
+external/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrownEngine.dir/build.make CMakeFiles/CrownEngine.dir/external/glad.c.i
+.PHONY : external/glad.c.i
 
-src/glad.s: src/glad.c.s
-.PHONY : src/glad.s
+external/glad.s: external/glad.c.s
+.PHONY : external/glad.s
 
 # target to generate assembly for a file
-src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrownEngine.dir/build.make CMakeFiles/CrownEngine.dir/src/glad.c.s
-.PHONY : src/glad.c.s
+external/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrownEngine.dir/build.make CMakeFiles/CrownEngine.dir/external/glad.c.s
+.PHONY : external/glad.c.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -177,6 +177,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrownEngine.dir/build.make CMakeFiles/CrownEngine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/shaders.o: src/shaders.cpp.o
+.PHONY : src/shaders.o
+
+# target to build an object file
+src/shaders.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrownEngine.dir/build.make CMakeFiles/CrownEngine.dir/src/shaders.cpp.o
+.PHONY : src/shaders.cpp.o
+
+src/shaders.i: src/shaders.cpp.i
+.PHONY : src/shaders.i
+
+# target to preprocess a source file
+src/shaders.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrownEngine.dir/build.make CMakeFiles/CrownEngine.dir/src/shaders.cpp.i
+.PHONY : src/shaders.cpp.i
+
+src/shaders.s: src/shaders.cpp.s
+.PHONY : src/shaders.s
+
+# target to generate assembly for a file
+src/shaders.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrownEngine.dir/build.make CMakeFiles/CrownEngine.dir/src/shaders.cpp.s
+.PHONY : src/shaders.cpp.s
+
+src/utils.o: src/utils.cpp.o
+.PHONY : src/utils.o
+
+# target to build an object file
+src/utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrownEngine.dir/build.make CMakeFiles/CrownEngine.dir/src/utils.cpp.o
+.PHONY : src/utils.cpp.o
+
+src/utils.i: src/utils.cpp.i
+.PHONY : src/utils.i
+
+# target to preprocess a source file
+src/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrownEngine.dir/build.make CMakeFiles/CrownEngine.dir/src/utils.cpp.i
+.PHONY : src/utils.cpp.i
+
+src/utils.s: src/utils.cpp.s
+.PHONY : src/utils.s
+
+# target to generate assembly for a file
+src/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrownEngine.dir/build.make CMakeFiles/CrownEngine.dir/src/utils.cpp.s
+.PHONY : src/utils.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CrownEngine"
-	@echo "... src/glad.o"
-	@echo "... src/glad.i"
-	@echo "... src/glad.s"
+	@echo "... external/glad.o"
+	@echo "... external/glad.i"
+	@echo "... external/glad.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/shaders.o"
+	@echo "... src/shaders.i"
+	@echo "... src/shaders.s"
+	@echo "... src/utils.o"
+	@echo "... src/utils.i"
+	@echo "... src/utils.s"
 .PHONY : help
 
 

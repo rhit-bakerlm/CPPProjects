@@ -182,6 +182,8 @@ CMakeFiles/CrownEngine.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/refwrap.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/fs_dir.h /usr/include/c++/11/bits/fs_ops.h \
- /home/bakerlm/CPPProjects/CrownEngine/include/glad.h \
+ /home/bakerlm/CPPProjects/CrownEngine/external/glad.h \
  /usr/include/KHR/khrplatform.h /usr/include/GLFW/glfw3.h \
- /home/bakerlm/CPPProjects/CrownEngine/include/constants.h
+ /home/bakerlm/CPPProjects/CrownEngine/include/constants.h \
+ /home/bakerlm/CPPProjects/CrownEngine/include/shaders.h \
+ /home/bakerlm/CPPProjects/CrownEngine/include/utils.h

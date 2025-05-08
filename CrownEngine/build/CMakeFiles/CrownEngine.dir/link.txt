@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/CrownEngine.dir/src/main.cpp.o CMakeFiles/CrownEngine.dir/src/glad.c.o -o CrownEngine  -lglfw /usr/lib/x86_64-linux-gnu/libGL.so 
+/usr/bin/c++ CMakeFiles/CrownEngine.dir/src/main.cpp.o CMakeFiles/CrownEngine.dir/src/shaders.cpp.o CMakeFiles/CrownEngine.dir/src/utils.cpp.o CMakeFiles/CrownEngine.dir/external/glad.c.o -o CrownEngine  -lglfw /usr/lib/x86_64-linux-gnu/libGL.so 

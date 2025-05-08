@@ -83,34 +83,66 @@ CMakeFiles/CrownEngine.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CrownEngine.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bakerlm/CPPProjects/CrownEngine/src/main.cpp -o CMakeFiles/CrownEngine.dir/src/main.cpp.s
 
-CMakeFiles/CrownEngine.dir/src/glad.c.o: CMakeFiles/CrownEngine.dir/flags.make
-CMakeFiles/CrownEngine.dir/src/glad.c.o: ../src/glad.c
-CMakeFiles/CrownEngine.dir/src/glad.c.o: CMakeFiles/CrownEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bakerlm/CPPProjects/CrownEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CrownEngine.dir/src/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CrownEngine.dir/src/glad.c.o -MF CMakeFiles/CrownEngine.dir/src/glad.c.o.d -o CMakeFiles/CrownEngine.dir/src/glad.c.o -c /home/bakerlm/CPPProjects/CrownEngine/src/glad.c
+CMakeFiles/CrownEngine.dir/src/shaders.cpp.o: CMakeFiles/CrownEngine.dir/flags.make
+CMakeFiles/CrownEngine.dir/src/shaders.cpp.o: ../src/shaders.cpp
+CMakeFiles/CrownEngine.dir/src/shaders.cpp.o: CMakeFiles/CrownEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bakerlm/CPPProjects/CrownEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CrownEngine.dir/src/shaders.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CrownEngine.dir/src/shaders.cpp.o -MF CMakeFiles/CrownEngine.dir/src/shaders.cpp.o.d -o CMakeFiles/CrownEngine.dir/src/shaders.cpp.o -c /home/bakerlm/CPPProjects/CrownEngine/src/shaders.cpp
 
-CMakeFiles/CrownEngine.dir/src/glad.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CrownEngine.dir/src/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bakerlm/CPPProjects/CrownEngine/src/glad.c > CMakeFiles/CrownEngine.dir/src/glad.c.i
+CMakeFiles/CrownEngine.dir/src/shaders.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CrownEngine.dir/src/shaders.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bakerlm/CPPProjects/CrownEngine/src/shaders.cpp > CMakeFiles/CrownEngine.dir/src/shaders.cpp.i
 
-CMakeFiles/CrownEngine.dir/src/glad.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CrownEngine.dir/src/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bakerlm/CPPProjects/CrownEngine/src/glad.c -o CMakeFiles/CrownEngine.dir/src/glad.c.s
+CMakeFiles/CrownEngine.dir/src/shaders.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CrownEngine.dir/src/shaders.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bakerlm/CPPProjects/CrownEngine/src/shaders.cpp -o CMakeFiles/CrownEngine.dir/src/shaders.cpp.s
+
+CMakeFiles/CrownEngine.dir/src/utils.cpp.o: CMakeFiles/CrownEngine.dir/flags.make
+CMakeFiles/CrownEngine.dir/src/utils.cpp.o: ../src/utils.cpp
+CMakeFiles/CrownEngine.dir/src/utils.cpp.o: CMakeFiles/CrownEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bakerlm/CPPProjects/CrownEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CrownEngine.dir/src/utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CrownEngine.dir/src/utils.cpp.o -MF CMakeFiles/CrownEngine.dir/src/utils.cpp.o.d -o CMakeFiles/CrownEngine.dir/src/utils.cpp.o -c /home/bakerlm/CPPProjects/CrownEngine/src/utils.cpp
+
+CMakeFiles/CrownEngine.dir/src/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CrownEngine.dir/src/utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bakerlm/CPPProjects/CrownEngine/src/utils.cpp > CMakeFiles/CrownEngine.dir/src/utils.cpp.i
+
+CMakeFiles/CrownEngine.dir/src/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CrownEngine.dir/src/utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bakerlm/CPPProjects/CrownEngine/src/utils.cpp -o CMakeFiles/CrownEngine.dir/src/utils.cpp.s
+
+CMakeFiles/CrownEngine.dir/external/glad.c.o: CMakeFiles/CrownEngine.dir/flags.make
+CMakeFiles/CrownEngine.dir/external/glad.c.o: ../external/glad.c
+CMakeFiles/CrownEngine.dir/external/glad.c.o: CMakeFiles/CrownEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bakerlm/CPPProjects/CrownEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CrownEngine.dir/external/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CrownEngine.dir/external/glad.c.o -MF CMakeFiles/CrownEngine.dir/external/glad.c.o.d -o CMakeFiles/CrownEngine.dir/external/glad.c.o -c /home/bakerlm/CPPProjects/CrownEngine/external/glad.c
+
+CMakeFiles/CrownEngine.dir/external/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CrownEngine.dir/external/glad.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bakerlm/CPPProjects/CrownEngine/external/glad.c > CMakeFiles/CrownEngine.dir/external/glad.c.i
+
+CMakeFiles/CrownEngine.dir/external/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CrownEngine.dir/external/glad.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bakerlm/CPPProjects/CrownEngine/external/glad.c -o CMakeFiles/CrownEngine.dir/external/glad.c.s
 
 # Object files for target CrownEngine
 CrownEngine_OBJECTS = \
 "CMakeFiles/CrownEngine.dir/src/main.cpp.o" \
-"CMakeFiles/CrownEngine.dir/src/glad.c.o"
+"CMakeFiles/CrownEngine.dir/src/shaders.cpp.o" \
+"CMakeFiles/CrownEngine.dir/src/utils.cpp.o" \
+"CMakeFiles/CrownEngine.dir/external/glad.c.o"
 
 # External object files for target CrownEngine
 CrownEngine_EXTERNAL_OBJECTS =
 
 CrownEngine: CMakeFiles/CrownEngine.dir/src/main.cpp.o
-CrownEngine: CMakeFiles/CrownEngine.dir/src/glad.c.o
+CrownEngine: CMakeFiles/CrownEngine.dir/src/shaders.cpp.o
+CrownEngine: CMakeFiles/CrownEngine.dir/src/utils.cpp.o
+CrownEngine: CMakeFiles/CrownEngine.dir/external/glad.c.o
 CrownEngine: CMakeFiles/CrownEngine.dir/build.make
 CrownEngine: /usr/lib/x86_64-linux-gnu/libGL.so
 CrownEngine: CMakeFiles/CrownEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bakerlm/CPPProjects/CrownEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CrownEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bakerlm/CPPProjects/CrownEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CrownEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CrownEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
