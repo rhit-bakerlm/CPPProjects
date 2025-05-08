@@ -1,0 +1,3 @@
+/home/bakerlm/CPPProjects/ImageProcessing/build/CMakeFiles/ImageProcessing.dir
+/home/bakerlm/CPPProjects/ImageProcessing/build/CMakeFiles/edit_cache.dir
+/home/bakerlm/CPPProjects/ImageProcessing/build/CMakeFiles/rebuild_cache.dir

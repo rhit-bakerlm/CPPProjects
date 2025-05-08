@@ -1,0 +1,3 @@
+/home/bakerlm/CPPProjects/CrownEngine/build/CMakeFiles/CrownEngine.dir
+/home/bakerlm/CPPProjects/CrownEngine/build/CMakeFiles/edit_cache.dir
+/home/bakerlm/CPPProjects/CrownEngine/build/CMakeFiles/rebuild_cache.dir

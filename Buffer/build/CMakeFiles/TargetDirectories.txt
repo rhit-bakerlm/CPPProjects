@@ -1,0 +1,3 @@
+/home/bakerlm/CPPProjects/Buffer/build/CMakeFiles/Buffer.dir
+/home/bakerlm/CPPProjects/Buffer/build/CMakeFiles/edit_cache.dir
+/home/bakerlm/CPPProjects/Buffer/build/CMakeFiles/rebuild_cache.dir

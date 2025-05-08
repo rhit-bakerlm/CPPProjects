@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/bakerlm/CPPProjects/ImageProcessing/build",
+  "command": "/usr/bin/g++  -I/home/bakerlm/CPPProjects/ImageProcessing/include -g -o CMakeFiles/ImageProcessing.dir/src/main.cpp.o -c /home/bakerlm/CPPProjects/ImageProcessing/src/main.cpp",
+  "file": "/home/bakerlm/CPPProjects/ImageProcessing/src/main.cpp"
+}
+]
